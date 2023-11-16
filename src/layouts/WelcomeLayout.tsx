@@ -2,7 +2,7 @@ import { animated, useTransition } from '@react-spring/web'
 import type { ReactNode } from 'react'
 import {useEffect,useRef,useState} from 'react'
 import {Link, useLocation, useOutlet,useNavigate } from 'react-router-dom'
-import logo from '../assets/logo.svg'
+import logo from '../assets/icons/logo.svg'
 import { useLocalStore } from '../stores/useLocalStore'
 import {useSwipe} from '../hooks/useSwipe'
 
