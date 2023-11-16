@@ -5,6 +5,10 @@ import { welcomeRoutes } from './WelcomeRoutes'
 
 export const router = createBrowserRouter([
   {
+    path:'/home',
+    element:<div>Home</div>
+  },
+  {
     path: '/',
     element: <MainLayout />,
     errorElement: <NotFoundPage />,
