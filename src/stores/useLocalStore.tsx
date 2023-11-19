@@ -1,11 +1,11 @@
-import create from 'zustand'
+import {create} from 'zustand'
 
 interface Local {
   hasReadWelcomes: boolean
   setHasReadWelcomes: (read: boolean) => void
 }
 const init = localStorage.getItem('hasReadWelcomes')
-export const useLocalStore = create<Local>((set, get) => (
+export const useLocalStore = create<Local>((set, _get) => (
   {
     hasReadWelcomes: init === 'yes',
     setHasReadWelcomes: (read: boolean) => {
