@@ -5,8 +5,6 @@ import type { TimeRange } from '../components/TimeRangePicker'
 import { TimeRangePicker } from '../components/TimeRangePicker'
 import { TopMenu } from '../components/TopMenu'
 import { TopNav } from './TopNav'
-import { menuContext } from '../components/menuContext'
-import { useMenuStore } from '../stores/useMenuStore'
 import { ItemsList } from '../pages/ItemPage/ItemsList'
 import { ItemsSummary } from '../pages/ItemPage/ItemSummary'
 
