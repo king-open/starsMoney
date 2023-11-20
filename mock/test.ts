@@ -17,6 +17,7 @@ export default [
   {
     url: '/api/v1/items',
     method: 'get',
+    timeout:1000,
     response: (): Resources<Item> => {
       return {
         resources:[],
